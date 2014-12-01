@@ -13,7 +13,7 @@ public class TestEmail {
 		
 		String email = new String("firstName.lastName@Yale.edu");
 		//email is not case sensitive
-		//cheacks that the email is a Yale email 
+		//checks that the email is a Yale email 
 		//with a first and last name separated by "."
 		//the names can only contain letters
 		if(checkEmail(email)){
